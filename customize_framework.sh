@@ -52,6 +52,4 @@ fi
 if [ $2 = "$BUILD_OUT/services" ]
 then
     applyPatch "overlay/services"
-    rm -rf $2/smali/com/android/server/power/ShutdownThread*
-    cp -rf ../android/services.jar.out/smali/com/android/server/power/ShutdownThread*.smali $2/smali/com/android/server/power/
 fi

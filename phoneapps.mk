@@ -9,14 +9,10 @@ private-phone-apps := \
 	CertInstaller \
 	com.qualcomm.location \
 	com.qualcomm.services.location \
-	Galaxy4 \
 	KeyChain \
 	LatinIME \
 	LiveWallpapers \
-	NoiseField \
 	PacProcessor \
-	PhaseBeam \
-	PhotoTable \
 	PicoTts \
 	PrintSpooler \
 	qcrilmsgtunnel \
@@ -31,6 +27,7 @@ private-phone-priv-apps := \
 	CMAudioService \
 	CMSettingsProvider \
 	ExternalStorageProvider \
+	FMRadio \
 	FusedLocation \
 	InputDevices \
 	ProxyHandler \

@@ -22,17 +22,18 @@ private-phone-apps := \
 	WAPPushManager
 
 private-phone-priv-apps := \
+	AudioFX \
 	BackupRestoreConfirmation \
+	CarrierConfig \
 	CellBroadcastReceiver \
-	CMAudioService \
 	CMSettingsProvider \
+	CMAudioService \
+	ThemeManagerService \
 	ExternalStorageProvider \
-	FMRadio \
 	FusedLocation \
 	InputDevices \
 	ProxyHandler \
-	Screencast \
+	StatementService \
 	SharedStorageBackup \
 	Shell \
-	ThemesProvider 
-	
+	ThemesProvider

@@ -2,6 +2,8 @@
 ## Makefile for Falcon
 #
 
+PORT_PRODUCT = falcom_global
+
 ## The original zip file, MUST be specified by each product
 local-zip-file     := stockrom.zip
 

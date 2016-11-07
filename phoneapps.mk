@@ -30,8 +30,8 @@ private-phone-priv-apps := \
 	FusedLocation \
 	InputDevices \
 	ProxyHandler \
-	StatementService \
 	SharedStorageBackup \
+	StatementService \
 	Shell \
 	ThemeManagerService \
 	ThemesProvider

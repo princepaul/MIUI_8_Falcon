@@ -5,12 +5,10 @@ private-phone-apps := \
 	BasicDreams \
 	Bluetooth \
 	BluetoothExt \
-	BluetoothMidiService \
 	CertInstaller \
 	com.qualcomm.location \
 	com.qualcomm.services.location \
 	KeyChain \
-	LatinIME \
 	LiveWallpapers \
 	PacProcessor \
 	PicoTts \
@@ -26,9 +24,8 @@ private-phone-priv-apps := \
 	BackupRestoreConfirmation \
 	CarrierConfig \
 	CellBroadcastReceiver \
-	CMSettingsProvider \
 	CMAudioService \
-	ThemeManagerService \
+	CMSettingsProvider \
 	ExternalStorageProvider \
 	FusedLocation \
 	InputDevices \
@@ -36,4 +33,5 @@ private-phone-priv-apps := \
 	StatementService \
 	SharedStorageBackup \
 	Shell \
+	ThemeManagerService \
 	ThemesProvider

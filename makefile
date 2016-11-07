@@ -2,7 +2,7 @@
 ## Makefile for Falcon
 #
 
-PORT_PRODUCT = falcom_global
+PORT_PRODUCT = falcon_global
 
 ## The original zip file, MUST be specified by each product
 local-zip-file     := stockrom.zip
@@ -19,9 +19,9 @@ local-modified-apps :=
 local-modified-jars := org.cyanogenmod.platform
 
 # All apks from MIUI
-local-miui-removed-apps := GameCenter FM Mipay XiaomiVip MiGameCenterSDKService
+local-miui-removed-apps := GameCenter FM MiGameCenterSDKService Mipay MiuiSuperMarket XiaomiVip
 
-local-miui-modified-apps := TeleService InCallUI
+local-miui-modified-apps := InCallUI TeleService
 
 # Config density for co-developers to use the aaps with HDPI or XHDPI resource,
 # Default configrations are HDPI for ics branch and XHDPI for jellybean branch

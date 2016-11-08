@@ -58,3 +58,6 @@ local-pre-zip-misc:
 	@echo goodbye! miui prebuilt binaries!
 	rm -rf $(ZIP_DIR)/system/bin/app_process32_vendor
 	cp -rf stockrom/system/bin/app_process32 $(ZIP_DIR)/system/bin/app_process32
+	@remove unnecessary libs!
+	rm -rf $(ZIP_DIR)/system/lib/libmresearch.so
+	rm -rf $(ZIP_DIR)/system/lib/libapssdk.so
